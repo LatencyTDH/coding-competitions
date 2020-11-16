@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/sd/Downloads/leetcode/kickstart/2020c/d.py", line 11, in <module>
+    main()
+  File "/Users/sd/Downloads/leetcode/kickstart/2020c/d.py", line 5, in main
+    tcs = int(input())
+EOFError: EOF when reading a line

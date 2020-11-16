@@ -1,0 +1,23 @@
+Expertise List (Confidential to Google.  Candidate, please do not share list outside of Google):
+
+Advanced Algorithms - Algorithms, Lisp, Prolog, Optimization, Computer Theory
+
+Compilers and software tools - Linkers, Debuggers, IDEs, Assembly Language, Machine Code, Decompiler, Operating Systems, ANT, JavaCC
+
+Computer vision - Modeling, Interaction, Event Tracking, Object Recognition, Motion Estimation, Image Reconstruction
+
+Concurrency, multithreading, synchronization - Process synchronization, Data Synchronization , Tree Logic, Race conditions, Distributed computing
+
+Database internals - Data Warehousing, SQL, Computer Memory, Computer Data Storage, Relational Database, Query Processing 
+
+Distributed systems - Concurrent Computing, Parallel Computing, Peer to Peer Networks, Multiplayer Online Games, Virtual Reality 
+
+Embedded software and real-time systems - Low Level, C, Hardware/Mechanical Engineering, Microchip, Microcontrollers, Digital Signal Processors
+
+Internationalization - Localization, l10n, i18n, Translation 
+
+Machine learning and AI - Algorithms, Relates to NLP, Decision Trees, Bayesian Networks, Lisp, Expert Systems, Data Mining, Automation 
+
+Networking - TCP/IP and OSI Stack, LAN, WAN, IEEE, 802, Routing, Routing Protocols, Frame Relay Network, Backbone Network, Overlay Network, Switch, Network Bridge 
+
+Security and cryptography - Security, Cryptography, Public/Private Key, RSA, Hashing 
