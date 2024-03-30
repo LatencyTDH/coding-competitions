@@ -61,5 +61,5 @@ def compute_lps(needle: str) -> List[int]:
     return sizes
 
 if __name__ == '__main__':
-    arr = lps_precompute('aaaaaa') # [0, 0, 0, 0, 1, 2]
+    arr = lps_precompute('ababb') # [0, 0, 0, 0, 1, 2]
     print(arr)
