@@ -2,7 +2,7 @@ import unittest
 
 
 class ParseMachine:
-    def __init__(self, word, abbr):
+    def __init__(self, word: str, abbr: str):
         self.state = None
         self.word = word
         self.abbr = abbr
@@ -44,7 +44,7 @@ class ParseMachine:
 
 
 class State:
-    def __init__(self, parse_machine):
+    def __init__(self, parse_machine: ParseMachine):
         self.parse_machine = parse_machine
 
     def on_entry(self) -> None:
@@ -72,6 +72,7 @@ class LetterState(State):
         if char.isdigit():
             self.parse_machine.transition(NumberState(self.parse_machine))
             return
+
         if char != self.parse_machine.word[self.parse_machine.word_cursor]:
             raise ValueError("[LetterState] Letter did not match expected")
 
@@ -80,7 +81,7 @@ class LetterState(State):
 
 
 class NumberState(State):
-    def __init__(self, parse_machine):
+    def __init__(self, parse_machine: ParseMachine):
         super().__init__(parse_machine)
         self.value = 0
 
@@ -141,7 +142,7 @@ class TestParseMachine(unittest.TestCase):
         parser = ParseMachine(word, abbr)
         self.assertFalse(parser.parse())
 
-    def test_rest(self):
+    def test_misc(self):
         test_cases = [
             ("substitution", "s10n", True),
             ("substitution", "sub4u4", True),
