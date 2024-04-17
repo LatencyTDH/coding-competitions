@@ -13,6 +13,7 @@ class FenwickTree(object):
 		# 	self.tree[i] = cus[i] - cus[left]
 		for i in range(1, len(self.tree)):
 			right = i + (i & (-i))
+
 			if right < self.n:
 				self.tree[right] += self.tree[i]
 
