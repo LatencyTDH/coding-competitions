@@ -20,13 +20,13 @@ class Solution:
 
         candidates = sorted(groups)
         size = len(groups)
-        for i in range(size):
-            for j in range(i + 1, size):
+        for i in range(size): # O(sqrt(n))
+            for j in range(i + 1, size): # O(sqrt(n))
                 a1 = candidates[i]
                 a2 = candidates[j]
 
                 # find identical x-values
-                both = sorted(groups[a1] & groups[a2])
+                both = sorted(groups[a1] & groups[a2]) # Time: O(sqrt(n)) use integer sort
                 for index in range(len(both) - 1):
                     b1, b2 = both[index], both[index + 1]
                     area = (a2 - a1) * (b2 - b1)
